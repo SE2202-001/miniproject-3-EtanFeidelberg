@@ -36,12 +36,12 @@ function initializeJobs(data) {
 
 class Job {
     constructor(title, postedTime, type, level, skill, detail) {
-        this.title = title;
-        this.postedTime = postedTime;
-        this.type = type;
-        this.level = level;
-        this.skill = skill;
-        this.detail = detail;
+        this.title = title || 'Unknown';
+        this.postedTime = postedTime || 'Unknown';
+        this.type = type || 'Unknown';
+        this.level = level || 'Unknown';
+        this.skill = skill || 'Unknown';
+        this.detail = detail || 'Unknown';
     }
 
     getFormattedTime() {
