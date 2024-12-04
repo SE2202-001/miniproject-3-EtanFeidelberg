@@ -1,0 +1,26 @@
+body {
+    
+    background-color: lightgray;
+}
+.content {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin:0px 20px 10px 20px;
+}
+select {
+    width: auto;
+    margin: 10px 10px 20px 10px;
+    padding: 5px;
+    background: lightgray;
+    border-radius: 3px;
+}
+button {
+    width: 100px;
+    margin: 10px 10px 20px 10px;
+    padding: 5px;
+    background: lightgray;
+    border-radius: 3px;
+    border-width: 1px;
+}
